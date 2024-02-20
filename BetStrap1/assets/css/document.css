@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .doc-header{
+    display: block;
+    background-color: var(--bg-black);
+    font-size: var(--font-size-4);
+    color: var(--txt-white);
+    padding: 20px;
+    text-align: center;
+  
+
+}
+
+.nav-all{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+
+}
+
+.nav-all .nav-content .nav-header{
+    background-color: var(--bg-black);
+    color: var(--txt-white);
+    font-size: var(--font-size-4);
+    text-align: center;
+   padding-top: 40px;
+    font-weight: bolder;
+    height: 100%;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+
+}
+.nav-all .nav-content{
+    background-color: var(--bg-black);
+    color: var(--txt-white);
+    width: 200px;
+    height: 100%;
+    
+
+}
+.nav-all .nav-content ul li{
+    list-style: none;
+    margin: 7px;
+    padding: 7px;
+    font-size: var(--font-size-4);
+    border-bottom: 1px solid white;
+    cursor: pointer;
+
+
+}
+.nav-all .nav-content ul li:hover{
+    background-color: rgb(171, 106, 106);
+    color: brown;
+}
+.nav-all .nav-content ul li a{
+    text-decoration: none;
+    color: var(--txt-white);
+}
+.nav-all .nav-content ul li:hover a{
+    color: rgb(75, 20, 20);
+}
+
+@media screen and (max-width:768px) {
+    .nav-all .nav-content ul li{
+        display: none;
+    }
+    .nav-all .nav-content:hover  ul li{
+display: block;
+
+    }
+ 
+}
+@media screen and (max-width:1024px) {
+    .nav-all .nav-content ul li{
+        display: none;
+    }
+    .nav-all .nav-content:hover  ul li{
+display: block;
+
+    }
+ 
+}
+/*COLORS*/
+
+.colors{
+    padding-top: 20px;
+   padding-left: 370px;
+   margin: 15px;
+   height: 190px;
+}
+
+.bg-red, 
+.bg-blue, 
+.bg-green, 
+.bg-purple, 
+.bg-brown, 
+.bg-black, 
+.bg-pink, 
+.bg-white, 
+.bg-orange, 
+.bg-grey{
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 5px;
+    height: 30px;
+}
+
+
+.color-header{
+    padding: 20px;
+}
+.color-header,
+.button-header
+{
+    width: 100%;
+    text-align: center;
+ 
+    font-size: 23px;
+    font-weight: lighter;
+    background-color: black;
+    color: white;
+
+}
+
+.buttons{
+    padding-left: 280px;
+}
+.buttons .button-type-header{
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: lighter;
+    
+ 
+
+}
+.buttons .outline,
+.buttons .regular
+{
+    
+    margin: 5px;
+    padding: 5px;
+}
+
+.button-header{
+    padding: 20px;
+}
+/*font size*/
+
+.font-s, .font-t{
+    padding-left: 280px ;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+.font-size-1, 
+.font-size-2, 
+.font-size-3, 
+.font-size-4, 
+.font-size-5, 
+.font-size-6, 
+.font-size-7, 
+.font-size-8, 
+.font-size-9, 
+.font-size-10,
+.font-size-header-1,
+.font-size-header-2,
+.font-size-header-3,
+.font-size-header-4,
+.font-size-header-5
+{
+    border: 1px solid black;
+    height: 70px;
+}
+
+.font-s .font-size-item,
+.font-t .font-type-item
+{
+    display: inline;
+    text-align: center;
+}
+
+/*font - type*/
+
+
+.font-1,
+.font-2,
+.font-3,
+.font-4,
+.font-5{
+    border: 1px solid black;
+    height: 30px;
+}
+
+/*margin padding*/
+
+.margin-padding{
+    padding-left: 280px;
+    padding-right: 80px;
+}
+.mar-ped,
+.mar-ped-r,
+.mar-ped-l,
+.mar-ped-t,
+.mar-ped-b{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/*DropDown*/
+
+.drop-down{
+    padding-left: 280px;
+    padding-right: 80px;
+    margin-top: 10px;
+}
+
+/*FORM*/
+.form{
+    padding-left: 280px;
+    padding-right: 100px;
+    margin-top: 10px;
+}
+
+/*IMAGES*/
+.images-site{
+    padding-left: 280px;
+    padding-right: 80px;
+    margin-top: 10px;
+}
+
+.images-site .p{
+    text-align: center;
+    font-size: 15px;
+}
+
+/*nav menu */
+.nav-menu-site{
+    padding-left: 280px;
+    padding-right: 80px;
+    margin-top: 20px;
+}
+
+.nav-menu-site .row .nav-menu{
+    position: relative;
+    display: block;
+}
+.nav-menu-site .row .nav-inline{
+    height: 30px;
+}
+.nav-header-{
+    padding-left: 280px;
+    padding-top: 30px;
+}
+.row .nav-header{
+    font-size: 20px;
+}
+
+.pictures{
+    padding-left: 280px;
+    padding-right: 80px;
+}
+
+.pictures .row .p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.slider-site{
+    padding-left: 280px;
+    padding-right: 80px;
+    padding-top: 30px;
+}
+
+.table-site{
+    padding-left: 280px;
+    padding-right: 80px;
+    padding-top: 30px;
+}
+
+.button-header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
